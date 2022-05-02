@@ -4,3 +4,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #fe6900 ;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif; 
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo img {
+    width:150px ;
+}
+
+.department {
+    width: 20%;
+    justify-content: center;
+}
+
+.department a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    padding: 0 3px;
+
+    
+}
+
+.logo {
+    width: 60%;
+    text-align: center;
+}
+
+.user {
+    width: 20%;
+}

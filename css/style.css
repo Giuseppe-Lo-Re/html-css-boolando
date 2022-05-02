@@ -22,6 +22,29 @@ img {
 .flex {
     display: flex;
 }
+
+h3 {
+    font-size: 15px;
+}
+
+.percentage {
+    background-color: red;
+    padding: 2px;
+}
+
+.message {
+    background-color: green;
+    padding: 2px;  
+}
+
+.new-price {
+    color: red;
+    font-weight: 700;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -37,10 +60,11 @@ nav {
     display: flex;
     height: 100%;
     align-items: center;
+    padding: 20px;
 }
 
 .logo img {
-    width:150px ;
+    width:120px ;
 }
 
 .department {
@@ -48,7 +72,7 @@ nav {
     justify-content: center;
 }
 
-.department a {
+header a {
     text-decoration: none;
     color: inherit;
     font-weight: 700;
@@ -102,27 +126,6 @@ nav {
     position: absolute;
     bottom:50px;
     left: 0;
-}
-
-.percentage {
-    background-color: red;
-    padding: 2px;
-}
-
-.message {
-    background-color: green;
-    padding: 2px;  
-}
-
-
-
-.new-price {
-    color: red;
-    font-weight: 700;
-}
-
-.old-price {
-    text-decoration: line-through;
 }
 /* END MAIN */
 

@@ -130,3 +130,15 @@ nav {
 }
 /* END MAIN */
 
+/* FOOTER */
+footer {
+height: 80px;
+background-color: black;
+color: white;
+}
+
+.footer-info 
+
+.social {
+    list-style-type: none;
+}

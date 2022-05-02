@@ -18,7 +18,7 @@ img {
 .flex {
     display: flex;
 }
-
+/* END COMMON */
 
 /* HEADER */
 header {
@@ -48,9 +48,7 @@ nav {
     text-decoration: none;
     color: inherit;
     font-weight: 700;
-    padding: 0 3px;
-
-    
+    padding: 0 3px;   
 }
 
 .logo {
@@ -60,4 +58,23 @@ nav {
 
 .user {
     width: 20%;
+    text-align: end;
 }
+/* END HEADER */
+
+/* MAIN */
+.shop-widow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: lightblue;
+    border: 1px solid red;
+    padding: 20px 10px;
+    width: calc(100% / 3);   
+}
+
+
+/* END MAIN */
+

@@ -68,21 +68,17 @@ nav {
 
 /* MAIN */
 .shop-widow {
-    /* background-color: bisque; */
     display: flex;
     flex-wrap: wrap;
 }
 
 .product-container {
-    /* background-color: blueviolet; */
     width: calc(100% / 3);
     padding: 20px;
     
 
 }
 .product {
-    /* background-color: lightblue; */
-    /* border: 1px solid red; */
     position: relative;
 }
 
@@ -137,8 +133,35 @@ background-color: black;
 color: white;
 }
 
-.footer-info 
+.space-btw {
+    justify-content: space-between;
+}
 
 .social {
-    list-style-type: none;
+    padding-right: 20px;
+}
+
+.social li {
+    display: inline;
+    list-style-type: none;  
+}
+
+.social li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social ul {
+    padding-top: 10px;
+}
+
+.info, .social {
+    padding-left: 20px;
+    padding-top: 20px;   
+}
+
+
+.customers-info {
+    font-size: 12px;
+    padding-top: 5px;
 }
